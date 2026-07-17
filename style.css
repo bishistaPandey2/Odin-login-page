@@ -14,6 +14,8 @@
 
 :root{
     --left-side-padding: 43px;
+    --default-white-color: #ffff;
+    --button-color: #596D48;
 }
 
 body{
@@ -38,7 +40,7 @@ label{
 }
 
 form{
-    background-color: #ffff;
+    background-color: var(--default-white-color);
     flex: 1 1 0%;
     width: calc(100vw - 40vw);
     padding: var(--left-side-padding);
@@ -82,9 +84,9 @@ input:user-invalid{
     margin: 35px 0px 25px 43px;
     font-size: 20px;
     padding: 13px 45px;
-    background-color: #596D48;
+    background-color: var(--button-color);
     max-width: 345px;
-    color: #ffff;
+    color: var(--default-white-color);
     border: none;
     border-radius: 12px;
 }
@@ -118,7 +120,7 @@ div.introduction + div + div{
     font-size: 18px;
 }
 a{
-    color: #596D48;
+    color: var(--button-color);
     font-size: 18px;
     font-style: italic;
 }
@@ -143,7 +145,7 @@ a{
     height: 83px;
 }
 .name{
-    color: #fff;
+    color: var(--default-white-color);
     font-size: 5rem;
     font-family: "Norse";
 }
@@ -153,7 +155,7 @@ a{
     justify-content: center;
     position: absolute;
     z-index: 3;
-    color: white;
+    color: var(--default-white-color);
     bottom: 8px;
     left: 0px;
 }
