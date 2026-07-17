@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label, input{
+    display: flex;
+}
+
+label{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+input{
+    margin-top: 7px;
+    height: 25px;
+    width: 235px;
+    padding-left: 12px;
+    font-size: 17px;
+    outline: 1px solid #E5E7EB;
+}
+
+input:focus{
+    outline: 1px solid blue;
+}
+input:user-invalid{
+    outline: 1px solid red;
+}
+
+.invitaion{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.form-input{
+    margin-bottom: 25px;
+}
+
+.form-section{
+    display: flex;
+    gap: 9rem;
+}
+
+.create-user{
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 13px 45px;
+    background-color: #596D48;
+    color: #ffff;
+    border: none;
+    border-radius: 12px;
+}
